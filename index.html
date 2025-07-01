@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio | Your Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Port<span>folio.</span></a>
+            <div class="menu-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="hello">Hello, I'm</h3>
+                    <h1 class="name">Raushan Kumar</h1>
+                    <h3 class="profession">And I'm a <span class="typed-text"></span></h3>
+                    <p class="bio">Creative designer and developer with a passion for building beautiful, functional websites and applications.</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="My Image.jpg" alt="Your Name" class="main-img">
+                        <div class="circle-shape"></div>
+                        <div class="circle-shape-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" class="scroll-link">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-box">
+                        <img src="Second .jpg" alt="About Me" class="about-img">
+                        <div class="experience-box">
+                            <div class="experience-content">
+                                <span class="number">45</span>
+                                <span class="text">Days of<br>Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-title">I'm a <span>Web Developer</span></h3>
+                    <p class="about-description">I have over 45 days of experience building modern websites and web applications. My expertise includes frontend development, database, and creating responsive layouts that work across all devices.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Raushan Kumar</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">kumarraushan60827@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Age:</span>
+                            <span class="info-value">21</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">From:</span>
+                            <span class="info-value">Bihar, Patna</span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <h4 class="skill-name">HTML/CSS</h4>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <h4 class="skill-name">JavaScript</h4>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <h4 class="skill-name">React</h4>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <h4 class="skill-name">SQL Developer</h4>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">My <span>Services</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">What I offer to my clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">Custom website development using modern technologies to ensure fast, responsive, and scalable solutions.</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">Web Development</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-description">Beautiful, intuitive designs that focus on user experience and conversion optimization.</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">Web Design</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Responsive Design</h3>
+                    <p class="service-description">Mobile-first approach to ensure your website looks great on all devices and screen sizes.</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">Responsive Design</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service-title">SQL Developer</h3>
+                    <p class="service-description">SQL, or Structured Query Language, is primarily used for managing and manipulating data in relational database management systems (RDBMS)</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">SQL Developer</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Power BI </h3>
+                    <p class="service-description">Power BI is primarily used for data visualization and business intelligence, allowing users to connect to various data sources, transform and clean data, create interactive reports and dashboards, and share insights with others.</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">Power BI</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service-title">Web Hosting</h3>
+                    <p class="service-description">Reliable and secure web hosting solutions with 99.9% uptime guarantee.</p>
+                    <div class="service-hover-content">
+                        <h3 class="service-hover-title">Web Hosting</h3>
+                        <a href="#" class="service-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">My <span>Portfolio</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Check out my recent work</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="Burger.jpg" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">BurgerMenu</h3>
+                                <p class="project-category">Web Development</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="Game.jpg" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">Tic Toc Toe</h3>
+                                <p class="project-category">Game</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="Restaurant.avif" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">Bill Devider</h3>
+                                <p class="project-category">JavaScript Development</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="Telephone.avif" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">Telephone Formatter</h3>
+                                <p class="project-category">JavaScript Development</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="String.jpeg" alt="Project 5">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">String Transform</h3>
+                                <p class="project-category">JavaScript Development</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="Desigen.avif" alt="Project 6">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3 class="project-title">Auto-Typing</h3>
+                                <p class="project-category">Design</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">Client <span>Testimonials</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">What my clients say about me</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="https://via.placeholder.com/100x100" alt="Client 1">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"Working with this developer was an absolute pleasure. They delivered our project on time and exceeded our expectations with the quality of work."</p>
+                            <h3 class="client-name">Sarah Johnson</h3>
+                            <span class="client-role">CEO, Tech Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="https://via.placeholder.com/100x100" alt="Client 2">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"The attention to detail and creative solutions provided were outstanding. I would highly recommend their services to anyone looking for top-quality development."</p>
+                            <h3 class="client-name">Michael Brown</h3>
+                            <span class="client-role">Marketing Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="https://via.placeholder.com/100x100" alt="Client 3">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"Our website has seen a 40% increase in conversions since the redesign. The developer understood our business needs perfectly."</p>
+                            <h3 class="client-name">Emily Davis</h3>
+                            <span class="client-role">Founder, Startup Co</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Phone:</h3>
+                            <p class="contact-detail">+91 765 459 9357</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Email:</h3>
+                            <p class="contact-detail">kumarraushan60827@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Location</h3>
+                            <p class="contact-detail">Bihar, Patna</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" class="form-control" required>
+                        <input type="email" placeholder="Email Address" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Port<span>folio.</span></a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/16EeAfPYKm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/raushan97069405?s=21"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?igsh=1j32wed4tduwx&utm_content=nefy02q"><i class="fab fa-instagram"></i></a>
+                    <a href="http://linkedin.com/in/raushan-kumar-6b738a289"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Raushan470-web"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Raushan Kumar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
